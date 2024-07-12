@@ -11,15 +11,19 @@ func main() {
 	var b int = 12
 	fmt.Println(b)
 
-	// boolean
-	var c = true
+	var c float64 = 2.5
 	fmt.Println(c)
 
-	//	initialized variable
-	var d int
+	// boolean
+	var d = true
 	fmt.Println(d)
 
-	// shorthand syntax
-	e := "ge"
+	//	initialized variable
+	var e int
+	e = 2
 	fmt.Println(e)
+
+	// shorthand syntax
+	f := "ge"
+	fmt.Println(f)
 }
