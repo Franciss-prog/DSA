@@ -8,6 +8,7 @@ func main() {
 	a[0] = 1
 	a[1] = 2
 	a[2] = 3
+	fmt.Println(a)
 
 	// shorthand
 	b := [3]int{1, 2, 3}
